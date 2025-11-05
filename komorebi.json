@@ -7,8 +7,9 @@
     "default_container_padding": 8,
     "resize_delta": 25,
     "border": true,
-    "border_width": 2,
+    "border_width": 4,
     "border_offset": -1,
+    "mouse_follows_focus": false,
     "animation": {
         "enabled": true,
         "duration": 150,
@@ -43,37 +44,25 @@
                 {
                     "name": "V",
                     "layout": "BSP"
-                },
-                {
-                    "name": "VI",
-                    "layout": "BSP"
                 }
             ]
         },
         {
             "workspaces": [
                 {
-                    "name": "I",
+                    "name": "1",
                     "layout": "BSP"
                 },
                 {
-                    "name": "II",
+                    "name": "2",
                     "layout": "BSP"
                 },
                 {
-                    "name": "III",
+                    "name": "3",
                     "layout": "BSP"
                 },
                 {
-                    "name": "IV",
-                    "layout": "BSP"
-                },
-                {
-                    "name": "V",
-                    "layout": "BSP"
-                },
-                {
-                    "name": "VI",
+                    "name": "4",
                     "layout": "BSP"
                 }
             ]
