@@ -1,0 +1,2 @@
+[2m2025-11-04T11:50:05.218201Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m workspaces[0].bind_to_monitor: invalid type: string "1", expected u32 at line 126 column 22
+[2m2025-11-04T11:50:35.892847Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m workspaces[0].bind_to_monitor: invalid type: string "1", expected u32 at line 126 column 22
