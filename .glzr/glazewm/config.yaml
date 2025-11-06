@@ -81,7 +81,7 @@ window_effects:
       enabled: false
       # Can be something like '95%' or '0.95' for slightly transparent windows.
       # '0' or '0%' is fully transparent (and, by consequence, unfocusable).
-      opacity: '90%'
+      opacity: '95%'
 
   # Visual effects to apply to non-focused windows.
   other_windows:
@@ -95,7 +95,7 @@ window_effects:
       style: 'square'
     transparency:
       enabled: true
-      opacity: '90%'
+      opacity: '95%'
 
 window_behavior:
   # New windows are created in this state whenever possible.
@@ -186,13 +186,13 @@ binding_modes:
 keybindings:
   # Shift focus in a given direction.
   - commands: ['focus --direction left']
-    bindings: ['alt+h', 'alt+left']
+    bindings: ['alt+left']
   - commands: ['focus --direction right']
-    bindings: ['alt+l', 'alt+right']
+    bindings: ['alt+right']
   - commands: ['focus --direction up']
-    bindings: ['alt+k', 'alt+up']
+    bindings: ['alt+up']
   - commands: ['focus --direction down']
-    bindings: ['alt+j', 'alt+down']
+    bindings: ['alt+down']
 
   # Move focused window in a given direction.
   - commands: ['move --direction left']
@@ -206,13 +206,13 @@ keybindings:
 
   # Resize focused window by a percentage or pixel amount.
   - commands: ['resize --width -2%']
-    bindings: ['alt+u']
+    bindings: ['alt+j']
   - commands: ['resize --width +2%']
-    bindings: ['alt+p']
+    bindings: ['alt+l']
   - commands: ['resize --height +2%']
-    bindings: ['alt+o']
+    bindings: ['alt+k']
   - commands: ['resize --height -2%']
-    bindings: ['alt+i']
+    bindings: ['alt+h']
 
   # As an alternative to the resize keybindings above, resize mode enables
   # resizing via arrow keys or HJKL. The binding mode is defined above with
